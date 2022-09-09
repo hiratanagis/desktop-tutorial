@@ -19,9 +19,9 @@ const client = new Client({
 });
 
 const manager = new Manager(client, {
-    guildId: '499539267924656143',
-    categoryId: '533806130921472000',
-    role: '565094477954547712'
+    guildId: '976469136186171424',
+    categoryId: '1006828861964689438',
+    role: '1005060869723537491'
 })
 
 client.on('ready', () => {
