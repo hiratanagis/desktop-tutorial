@@ -36,6 +36,7 @@ charModMail.ModMail(client, {
     wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
     rightEmoji: "✅" // if you want you can change but don't change it recommaned.
 })
+})
 
 /* Client Config */
 client.config = require('../config.json')
