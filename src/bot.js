@@ -12,21 +12,29 @@ console.log(`Your app is listening a http://localhost:${port}`)
 const { Client, Collection, GatewayIntentBits, Partials } = require("discord.js");
 const { User, Channel, GuildMember, GuildScheduledEvent, Message, Reaction, ThreadMember } = Partials
 const { Guilds, GuildMembers, GuildMessages, GuildVoiceStates, DirectMessages, GuildMessageReactions, GuildEmojisAndStickers, GuildWebhooks, GuildIntegrations, MessageContent } = GatewayIntentBits;
-const { Manager } = require('modmail.djs');
+
 const client = new Client({ 
 	intents: 131071,
 	partials: [User, Channel, Message, GuildMember, ThreadMember, GuildScheduledEvent, Reaction]
 });
 
-const manager = new Manager(client, {
-    guildId: '976469136186171424',
-    categoryId: '1006828861964689438',
-    role: '1005060869723537491'
-})
+const charModMail = require('char-mod-mail');
 
-client.on('ready', () => {
-    console.log('Modmail aktif')
-    manager.setModmail();
+client.on("ready", () => {
+charModMail.ModMail(client, {
+    guildID: "976469136186171424", //put your guild id here
+    categoryID: "1006828861964689438", //put your category id here
+    staffRole: "1005060869723537491", //put your staff role id here
+    embedColor: "#ffffff", //change the hax color code if you want
+    anonymousReply: true, //make it false if only the staff can reply the user or make it true so anyone can reply.
+    closedTitle: "Mod Mail-mu udah di tutup",
+    closedMessage: "Staff telah menghapus Mod Mail-mu!",
+    staffOpenedTitle: "Seseorang membuka Mod Mail",
+    staffOpenedMessage: "Seseorang telah membuka Mod Mail dan menunggu untuk dibalas!",
+    userOpenedTitle: "Mod Mail telah dibuat!",
+    userOpenedMessage: "Kamu telah membuat Mod Mail Ticket!",
+    wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
+    rightEmoji: "✅" // if you want you can change but don't change it recommaned.
 })
 
 /* Client Config */
