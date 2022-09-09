@@ -1,0 +1,653 @@
+{
+	"ahri": {
+    "icon": "https://www.mobafire.com/images/champion/square/ahri.png",
+    "link": "https://www.wildriftfire.com/guide/ahri",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952828184940606/ahri.png",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953004068868136/ahri.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953112684564532/ahri.PNG"
+  },
+  "akali": {
+    "icon": "https://www.mobafire.com/images/champion/square/akali.png",
+    "link": "https://www.wildriftfire.com/guide/akali",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952828533051412/akali.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953004337307678/akali.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953113062055946/akali.PNG"
+  },
+  "akshan": {
+    "icon": "https://www.mobafire.com/images/champion/square/akshan.png",
+    "link": "https://www.wildriftfire.com/guide/akshan",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952829082521610/akshan.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953004584779898/akshan.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953113506648064/akshan.PNG"
+  },
+  "alistar": {
+    "icon": "https://www.mobafire.com/images/champion/square/alistar.png",
+    "link": "https://www.wildriftfire.com/guide/alistar",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952829640347688/alistar.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953004920311900/alistar.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953113762496552/alistar.PNG"
+  },
+  "amumu": {
+    "icon": "https://www.mobafire.com/images/champion/square/amumu.png",
+    "link": "https://www.wildriftfire.com/guide/amumu",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952830043004979/amumu.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953005239074916/amumu.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953113993199696/amumu.PNG"
+  },
+  "annie": {
+    "icon": "https://www.mobafire.com/images/champion/square/annie.png",
+    "link": "https://www.wildriftfire.com/guide/annie",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952830605045780/annie.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953005578825788/annie.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953114244853800/annie.PNG"
+  },
+  "ashe": {
+    "icon": "https://www.mobafire.com/images/champion/square/ashe.png",
+    "link": "https://www.wildriftfire.com/guide/ashe",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952830978330674/ashe.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953005868236830/ashe.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953114483937300/ashe.PNG"
+  },
+  "aurelion sol": {
+    "icon": "https://www.mobafire.com/images/champion/square/aurelion-sol.png",
+    "link": "https://www.wildriftfire.com/guide/aurelion-sol",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1015952831418748928/aurelion_sol.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1015953006132473977/aurelion_sol.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1015953114756554752/aurelion_sol.PNG"
+  },
+  "blitzcrank": {
+    "icon": "https://www.mobafire.com/images/champion/square/blitzcrank.png",
+    "link": "https://www.wildriftfire.com/guide/blitzcrank",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016137854281338960/blitzcrank.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016137949055811624/blitzcrank.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1016138079532240946/blitzcrank.PNG"
+  },
+  "brand": {
+    "icon": "https://www.mobafire.com/images/champion/square/brand.png",
+    "link": "https://www.wildriftfire.com/guide/brand",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016137854541369435/brand.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016137949269733446/brand.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1016138079783891046/brand.PNG"
+  },
+  "braum": {
+    "icon": "https://www.mobafire.com/images/champion/square/braum.png",
+    "link": "https://www.wildriftfire.com/guide/braum",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016137854885318776/braum.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016137949504606280/braum.PNG",
+    "skillorder": "https://cdn.discordapp.com/attachments/1015878075457740821/1016138080006197359/braum.PNG"
+  },
+  "caitlyn": {
+    "icon": "https://www.mobafire.com/images/champion/square/caitlyn.png",
+    "link": "https://www.wildriftfire.com/guide/caitlyn",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317623094497362/caitlyn.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318275728183356/camille.PNG",
+    "skillorder": ""
+  },
+  "camille": {
+    "icon": "https://www.mobafire.com/images/champion/square/camille.png",
+    "link": "https://www.wildriftfire.com/guide/camille",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317623333564446/camille.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318275728183356/camille.PNG",
+    "skillorder": ""
+  },
+  "corki": {
+    "icon": "https://www.mobafire.com/images/champion/square/corki.png",
+    "link": "https://www.wildriftfire.com/guide/corki",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317623610392677/corki.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318276122460210/corki.PNG",
+    "skillorder": ""
+  },
+  "darius": {
+    "icon": "https://www.mobafire.com/images/champion/square/darius.png",
+    "link": "https://www.wildriftfire.com/guide/darius",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317761108066345/darius.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318346725163118/darius.PNG",
+    "skillorder": ""
+  },
+  "diana": {
+    "icon": "https://www.mobafire.com/images/champion/square/diana.png",
+    "link": "https://www.wildriftfire.com/guide/diana",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317761431031808/diana.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318346955862086/diana.PNG",
+    "skillorder": ""
+  },
+  "dr. mundo": {
+    "icon": "https://www.wildriftfire.com/images/champion/icon/dr-mundo.png",
+    "link": "https://www.wildriftfire.com/guide/dr-mundo",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317761686876200/dr_mundo.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318347190739024/dr_mundo.PNG",
+    "skillorder": ""
+  },
+  "draven": {
+    "icon": "https://www.mobafire.com/images/champion/square/draven.png",
+    "link": "https://www.wildriftfire.com/guide/draven",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317762127282216/draven.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318347404640266/draven.PNG",
+    "skillorder": ""
+  },
+  "ekko": {
+    "icon": "https://www.mobafire.com/images/champion/square/ekko.png",
+    "link": "https://www.wildriftfire.com/guide/ekko",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317848655757312/ekko.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318413091647498/ekko.PNG",
+    "skillorder": ""
+  },
+  "evelynn": {
+    "icon": "https://www.mobafire.com/images/champion/square/evelynn.png",
+    "link": "https://www.wildriftfire.com/guide/evelynn",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317848903229480/evelynn.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318413313937449/evelynn.PNG",
+    "skillorder": ""
+  },
+  "ezreal": {
+    "icon": "https://www.mobafire.com/images/champion/square/ezreal.png",
+    "link": "https://www.wildriftfire.com/guide/ezreal",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317849125539840/ezreal.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318413523664906/ezreal.PNG",
+    "skillorder": ""
+  },
+  "fiora": {
+    "icon": "https://www.mobafire.com/images/champion/square/fiora.png",
+    "link": "https://www.wildriftfire.com/guide/fiora",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317943795154944/fiora.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318487158849696/fiora.PNG",
+    "skillorder": ""
+  },
+  "fizz": {
+    "icon": "https://www.mobafire.com/images/champion/square/fizz.png",
+    "link": "https://www.wildriftfire.com/guide/fizz",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016317944000688158/fizz.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318487410524160/fizz.PNG",
+    "skillorder": ""
+  },
+  "galio": {
+    "icon": "https://www.mobafire.com/images/champion/square/galio.png",
+    "link": "https://www.wildriftfire.com/guide/galio",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016318040276729916/galio.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318538178383872/galio.PNG",
+    "skillorder": ""
+  },
+  "garen": {
+    "icon": "https://www.mobafire.com/images/champion/square/garen.png",
+    "link": "https://www.wildriftfire.com/guide/garen",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016318040608092180/garen.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318538547474462/garen.PNG",
+    "skillorder": ""
+  },
+  "gragas": {
+    "icon": "https://www.mobafire.com/images/champion/square/gragas.png",
+    "link": "https://www.wildriftfire.com/guide/gragas",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016318041014935562/gragas.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318538782359552/gragas.PNG",
+    "skillorder": ""
+  },
+  "graves": {
+    "icon": "https://www.mobafire.com/images/champion/square/graves.png",
+    "link": "https://www.wildriftfire.com/guide/graves",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016318041627316264/graves.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318539042410556/graves.PNG",
+    "skillorder": ""
+  },
+  "gwen": {
+    "icon": "https://www.mobafire.com/images/champion/square/gwen.png",
+    "link": "https://www.wildriftfire.com/guide/gwen",
+    "build": "",
+    "runes": "",
+    "skillorder": ""
+  },
+  "irelia": {
+    "icon": "https://www.mobafire.com/images/champion/square/irelia.png",
+    "link": "https://www.wildriftfire.com/guide/irelia",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016318095859662848/irelia.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016318599574605864/irelia.PNG",
+    "skillorder": ""
+  },
+  "janna": {
+    "icon": "https://www.mobafire.com/images/champion/square/janna.png",
+    "link": "https://www.wildriftfire.com/guide/janna",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501294342610946/janna.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501149588787251/janna.PNG",
+    "skillorder": ""
+  },
+  "jarvan iv": {
+    "icon": "https://www.mobafire.com/images/champion/square/jarvan-iv.png",
+    "link": "https://www.wildriftfire.com/guide/jarvan-iv",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501294640418866/jarvan_iv.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501149844635779/jarvan_iv.PNG",
+    "skillorder": ""
+  },
+  "jax": {
+    "icon": "https://www.mobafire.com/images/champion/square/jax.png",
+    "link": "https://www.wildriftfire.com/guide/jax",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501294879481947/jax.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501150138245160/jax.PNG",
+    "skillorder": ""
+  },
+  "jayce": {
+    "icon": "https://www.mobafire.com/images/champion/square/jayce.png",
+    "link": "https://www.wildriftfire.com/guide/jayce",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501295135338576/jayce.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501150423453696/jayce.PNG",
+    "skillorder": ""
+  },
+  "jhin": {
+    "icon": "https://www.mobafire.com/images/champion/square/jhin.png",
+    "link": "https://www.wildriftfire.com/guide/jhin",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501295366033459/jhin.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501150905806919/jhin.PNG",
+    "skillorder": ""
+  },
+  "jinx": {
+    "icon": "https://www.mobafire.com/images/champion/square/jinx.png",
+    "link": "https://www.wildriftfire.com/guide/jinx",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016501295655436319/jinx.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016501151199416370/jinx.PNG",
+    "skillorder": ""
+  },
+  "kai'sa": {
+    "icon": "https://www.mobafire.com/images/champion/square/kaisa.png",
+    "link": "https://www.wildriftfire.com/guide/kaisa",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719784194359436/kaisa.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717914960822453/kaisa.PNG",
+    "skillorder": ""
+  },
+  "karma": {
+    "icon": "https://www.mobafire.com/images/champion/square/karma.png",
+    "link": "https://www.wildriftfire.com/guide/karma",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719784504729661/karma.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717915241857095/karma.PNG",
+    "skillorder": ""
+  },
+  "kassadin": {
+    "icon": "https://www.mobafire.com/images/champion/square/kassadin.png",
+    "link": "https://www.wildriftfire.com/guide/kassadin",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719784819314828/kassadin.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717915535441960/kassadin.PNG",
+    "skillorder": ""
+  },
+  "katarina": {
+    "icon": "https://www.mobafire.com/images/champion/square/katarina.png",
+    "link": "https://www.wildriftfire.com/guide/katarina",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719785121296534/katarina.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717915824865280/katarina.PNG",
+    "skillorder": ""
+  },
+  "kayle": {
+    "icon": "https://www.mobafire.com/images/champion/square/kayle.png",
+    "link": "https://www.wildriftfire.com/guide/kayle",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719785406500924/kayle.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717916193960046/kayle.PNG",
+    "skillorder": ""
+  },
+  "kennen": {
+    "icon": "https://www.mobafire.com/images/champion/square/kennen.png",
+    "link": "https://www.wildriftfire.com/guide/kennen",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719785645588531/kennen.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717916512723044/kennen.PNG",
+    "skillorder": ""
+  },
+  "kha'zix": {
+    "icon": "https://www.mobafire.com/images/champion/square/khazix.png",
+    "link": "https://www.wildriftfire.com/guide/khazix",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719785888845904/khazix.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016717914692403240/khazix.PNG",
+    "skillorder": ""
+  },
+  "lee sin": {
+    "icon": "https://www.mobafire.com/images/champion/square/lee-sin.png",
+    "link": "https://www.wildriftfire.com/guide/lee-sin",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719939291320440/lee_sin.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718326765985922/lee_sin.PNG",
+    "skillorder": ""
+  },
+  "leona": {
+    "icon": "https://www.wildriftfire.com/images/champion/icon/leona.png",
+    "link": "https://www.wildriftfire.com/guide/leona",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719939664621678/leona.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718327000858654/leona.PNG",
+    "skillorder": ""
+  },
+  "lucian": {
+    "icon": "https://www.mobafire.com/images/champion/square/lucian.png",
+    "link": "https://www.wildriftfire.com/guide/lucian",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719939882729472/lucian.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718327231561738/lucian.PNG",
+    "skillorder": ""
+  },
+  "lulu": {
+    "icon": "https://www.mobafire.com/images/champion/square/lulu.png",
+    "link": "https://www.wildriftfire.com/guide/lulu",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719940117598239/lulu.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718327445458985/lulu.PNG",
+    "skillorder": ""
+  },
+  "lux": {
+    "icon": "https://www.mobafire.com/images/champion/square/lux.png",
+    "link": "https://www.wildriftfire.com/guide/lux",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016719940427984926/lux.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718327642607656/lux.PNG",
+    "skillorder": ""
+  },
+  "malphite": {
+    "icon": "https://www.mobafire.com/images/champion/square/malphite.png",
+    "link": "https://www.wildriftfire.com/guide/malphite",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720037068943390/malphite.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718454222491669/malphite.PNG",
+    "skillorder": ""
+  },
+  "master yi": {
+    "icon": "https://www.mobafire.com/images/champion/square/master-yi.png",
+    "link": "https://www.wildriftfire.com/guide/master-yi",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720037396107334/master_yi.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718454469959841/master_yi.PNG",
+    "skillorder": ""
+  },
+  "miss fortune": {
+    "icon": "https://www.mobafire.com/images/champion/square/miss-fortune.png",
+    "link": "https://www.wildriftfire.com/guide/miss-fortune",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720037656150056/miss_fortune.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718454696460369/miss_fortune.PNG",
+    "skillorder": ""
+  },
+  "morgana": {
+    "icon": "https://www.mobafire.com/images/champion/square/morgana.png",
+    "link": "https://www.wildriftfire.com/guide/morgana",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720037974900806/morgana.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718454948102205/morgana.PNG",
+    "skillorder": ""
+  },
+  "nami": {
+    "icon": "https://www.mobafire.com/images/champion/square/nami.png",
+    "link": "https://www.wildriftfire.com/guide/nami",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720139670012025/nami.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718586649251901/nami.PNG",
+    "skillorder": ""
+  },
+  "nasus": {
+    "icon": "https://www.mobafire.com/images/champion/square/nasus.png",
+    "link": "https://www.wildriftfire.com/guide/nasus",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720140051685436/nasus.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718586863157349/nasus.PNG",
+    "skillorder": ""
+  },
+  "nautilus": {
+    "icon": "https://www.mobafire.com/images/champion/square/nautilus.png",
+    "link": "https://www.wildriftfire.com/guide/nautilus",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720140395614301/nautilus.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718587056103524/nautilus.PNG",
+    "skillorder": ""
+  },
+  "nunu and willump": {
+    "icon": "https://www.mobafire.com/images/champion/square/nunu-amp-willump.png",
+    "link": "https://www.wildriftfire.com/guide/nunu-amp-willump",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720140865380362/nunu_and_willump.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718587282591814/nunu_and_willump.PNG",
+    "skillorder": ""
+  },
+  "olaf": {
+    "icon": "https://www.mobafire.com/images/champion/square/olaf.png",
+    "link": "https://www.wildriftfire.com/guide/olaf",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720226102034472/olaf.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718692987445300/olaf.PNG",
+    "skillorder": ""
+  },
+  "orianna": {
+    "icon": "https://www.mobafire.com/images/champion/square/orianna.png",
+    "link": "https://www.wildriftfire.com/guide/orianna",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720226336907264/orianna.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718693335564339/orianna.PNG",
+    "skillorder": ""
+  },
+  "pantheon": {
+    "icon": "https://www.mobafire.com/images/champion/square/pantheon.png",
+    "link": "https://www.wildriftfire.com/guide/pantheon",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720303910563900/pantheon.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718767595728947/pantheon.PNG",
+    "skillorder": ""
+  },
+  "pyke": {
+    "icon": "https://www.mobafire.com/images/champion/square/pyke.png",
+    "link": "https://www.wildriftfire.com/guide/pyke",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720304246104104/pyke.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718767897710683/pyke.PNG",
+    "skillorder": ""
+  },
+  "rakan": {
+    "icon": "https://www.mobafire.com/images/champion/square/rakan.png",
+    "link": "https://www.wildriftfire.com/guide/rakan",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720406423556096/rakan.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718884402909295/rakan.PNG",
+    "skillorder": ""
+  },
+  "rammus": {
+    "icon": "https://www.mobafire.com/images/champion/square/rammus.png",
+    "link": "https://www.wildriftfire.com/guide/rammus",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720406717153280/rammus.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718885652799578/rammus.PNG",
+    "skillorder": ""
+  },
+  "renekton": {
+    "icon": "https://www.mobafire.com/images/champion/square/renekton.png",
+    "link": "https://www.wildriftfire.com/guide/renekton",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720407119798392/renekton.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718885950603335/renekton.PNG",
+    "skillorder": ""
+  },
+  "rengar": {
+    "icon": "https://www.mobafire.com/images/champion/square/rengar.png",
+    "link": "https://www.wildriftfire.com/guide/rengar",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720407442767922/rengar.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718886416166992/rengar.PNG",
+    "skillorder": ""
+  },
+  "riven": {
+    "icon": "https://www.mobafire.com/images/champion/square/riven.png",
+    "link": "https://www.wildriftfire.com/guide/riven",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720407677640774/riven.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016718886625878097/riven.PNG",
+    "skillorder": ""
+  },
+  "samira": {
+    "icon": "https://www.mobafire.com/images/champion/square/samira.png",
+    "link": "https://www.wildriftfire.com/guide/samira",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720501684584488/samira.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719015894319134/samira.PNG",
+    "skillorder": ""
+  },
+  "senna": {
+    "icon": "https://www.mobafire.com/images/champion/square/senna.png",
+    "link": "https://www.wildriftfire.com/guide/senna",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720501957201990/senna.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719016175353956/senna.PNG",
+    "skillorder": ""
+  },
+  "seraphine": {
+    "icon": "https://www.mobafire.com/images/champion/square/seraphine.png",
+    "link": "https://www.wildriftfire.com/guide/seraphine",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720502263402598/seraphine.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719016431194112/seraphine.PNG",
+    "skillorder": ""
+  },
+  "sett": {
+    "icon": "https://www.mobafire.com/images/champion/square/sett.png",
+    "link": "https://www.wildriftfire.com/guide/sett",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720502615720006/sett.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719016720617482/sett.PNG",
+    "skillorder": ""
+  },
+  "shen": {
+    "icon": "https://www.mobafire.com/images/champion/square/shen.png",
+    "link": "https://www.wildriftfire.com/guide/shen",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720503022555256/shen.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719016947097703/shen.PNG",
+    "skillorder": ""
+  },
+  "shyvana": {
+    "icon": "https://www.mobafire.com/images/champion/square/shyvana.png",
+    "link": "https://www.wildriftfire.com/guide/shyvana",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720503265833052/shyvana.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719017186168912/shyvana.PNG",
+    "skillorder": ""
+  },
+  "singed": {
+    "icon": "https://www.mobafire.com/images/champion/square/singed.png",
+    "link": "https://www.wildriftfire.com/guide/singed",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720503504900156/singed.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719017446219847/singed.PNG",
+    "skillorder": ""
+  },
+  "sion": {
+    "icon": "https://www.mobafire.com/images/champion/square/sion.png",
+    "link": "https://www.wildriftfire.com/guide/sion",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720503748186162/sion.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719019828588544/sion.PNG",
+    "skillorder": ""
+  },
+  "sona": {
+    "icon": "https://www.mobafire.com/images/champion/square/sona.png",
+    "link": "https://www.wildriftfire.com/guide/sona",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720504024997948/sona.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719020088623134/sona.PNG",
+    "skillorder": ""
+  },
+  "soraka": {
+    "icon": "https://www.wildriftfire.com/images/champion/icon/soraka.png",
+    "link": "https://www.wildriftfire.com/guide/soraka",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720504238899260/soraka.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719020327706634/soraka.PNG",
+    "skillorder": ""
+  },
+  "teemo": {
+    "icon": "https://www.mobafire.com/images/champion/square/teemo.png",
+    "link": "https://www.wildriftfire.com/guide/teemo",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720651551244338/teemo.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719152406339645/teemo.PNG",
+    "skillorder": ""
+  },
+  "thresh": {
+    "icon": "https://www.wildriftfire.com/images/champion/icon/thresh.png",
+    "link": "https://www.wildriftfire.com/guide/thresh",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720651798720613/thresh.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719152653811872/thresh.PNG",
+    "skillorder": ""
+  },
+  "tristana": {
+    "icon": "https://www.mobafire.com/images/champion/square/tristana.png",
+    "link": "https://www.wildriftfire.com/guide/tristana",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720652071342130/tristana.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719152863522816/tristana.PNG",
+    "skillorder": ""
+  },
+  "tryndamere": {
+    "icon": "https://www.mobafire.com/images/champion/square/tryndamere.png",
+    "link": "https://www.wildriftfire.com/guide/tryndamere",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720652310425670/tryndamere.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719153073233940/tryndamere.PNG",
+    "skillorder": ""
+  },
+  "twisted fate": {
+    "icon": "https://www.mobafire.com/images/champion/square/twisted-fate.png",
+    "link": "https://www.wildriftfire.com/guide/twisted-fate",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720652654362624/twisted_fate.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719153345855600/twisted_fate.PNG",
+    "skillorder": ""
+  },
+  "varus": {
+    "icon": "https://www.mobafire.com/images/champion/square/varus.png",
+    "link": "https://www.wildriftfire.com/guide/varus",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720739694551190/varus.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719271897878588/varus.PNG",
+    "skillorder": ""
+  },
+  "vayne": {
+    "icon": "https://www.mobafire.com/images/champion/square/vayne.png",
+    "link": "https://www.wildriftfire.com/guide/vayne",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720740101406720/vayne.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719272111779980/vayne.PNG",
+    "skillorder": ""
+  },
+  "veigar": {
+    "icon": "https://www.mobafire.com/images/champion/square/veigar.png",
+    "link": "https://www.wildriftfire.com/guide/veigar",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720740436934707/veigar.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719272510234764/veigar.PNG",
+    "skillorder": ""
+  },
+  "vex": {
+    "icon": "https://www.mobafire.com/images/champion/square/vex.png",
+    "link": "https://www.wildriftfire.com/guide/vex",
+    "build": "",
+    "runes": "",
+    "skillorder": ""
+  },
+  "vi": {
+    "icon": "https://www.mobafire.com/images/champion/square/vi.png",
+    "link": "https://www.wildriftfire.com/guide/vi",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720740650860655/vi.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719272808038461/vi.PNG",
+    "skillorder": ""
+  },
+  "warwick": {
+    "icon": "https://www.mobafire.com/images/champion/square/warwick.png",
+    "link": "https://www.wildriftfire.com/guide/warwick",
+    "build": "",
+    "runes": "",
+    "skillorder": ""
+  },
+  "wukong": {
+    "icon": "https://www.mobafire.com/images/champion/square/wukong.png",
+    "link": "https://www.wildriftfire.com/guide/wukong",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720796053422190/wukong.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719356153040937/wukong.PNG",
+    "skillorder": ""
+  },
+  "xayah": {
+    "icon": "https://www.mobafire.com/images/champion/square/xayah.png",
+    "link": "https://www.wildriftfire.com/guide/xayah",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720856895992040/xayah.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719446833905673/xayah.PNG",
+    "skillorder": ""
+  },
+  "xin zhao": {
+    "icon": "https://www.mobafire.com/images/champion/square/xin-zhao.png",
+    "link": "https://www.wildriftfire.com/guide/xin-zhao",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720857143464038/xin_zhao.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719447064580220/xin_zhao.PNG",
+    "skillorder": ""
+  },
+  "yasuo": {
+    "icon": "https://www.mobafire.com/images/champion/square/yasuo.png",
+    "link": "https://www.wildriftfire.com/guide/yasuo",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720928392097882/yasuo.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719495580106803/yasuo.PNG",
+    "skillorder": ""
+  },
+  "yone": {
+    "icon": "https://www.mobafire.com/images/champion/square/yone.png",
+    "link": "https://www.wildriftfire.com/guide/yone",
+    "build": "",
+    "runes": "",
+    "skillorder": ""
+  },
+  "yuumi": {
+    "icon": "https://www.mobafire.com/images/champion/square/yuumi.png",
+    "link": "https://www.wildriftfire.com/guide/yuumi",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720928673108118/yuumi.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719496016302100/yuumi.PNG",
+    "skillorder": ""
+  },
+  "zed": {
+    "icon": "https://www.mobafire.com/images/champion/square/zed.png",
+    "link": "https://www.wildriftfire.com/guide/zed",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720982066593913/zed.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719559891374161/zed.PNG",
+    "skillorder": ""
+  },
+  "ziggs": {
+    "icon": "https://www.mobafire.com/images/champion/square/ziggs.png",
+    "link": "https://www.wildriftfire.com/guide/ziggs",
+    "build": "https://cdn.discordapp.com/attachments/1015877980305752134/1016720982339227748/ziggs.PNG",
+    "runes": "https://cdn.discordapp.com/attachments/1015878020407492638/1016719560122044498/ziggs.PNG",
+    "skillorder": ""
+  }
+}
