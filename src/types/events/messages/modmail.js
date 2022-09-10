@@ -1,4 +1,4 @@
-const { Message, EmbedBuilder, MessageType, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
+const { ChannelType, Message, EmbedBuilder, MessageType, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
 
 module.exports = {
     name: "messageCreate",
@@ -11,7 +11,7 @@ module.exports = {
 		if (!guild) console.log("No Guild!");
 		
 		if (message.author.bot) return;
-		if (message.channel.type === "DM") {
+		if (message.channel.type === ChannelType.DM) {
 			let mailName = `${message.author.id}`
 
 			let usersChannel = await guild.channels.cache.find(ch => ch.name === mailName.toLowerCase());
@@ -86,7 +86,7 @@ module.exports = {
 
 		// Sent In DM's //
 		} else {
-			if (message.channel.type === "GUILD_TEXT") {
+			if (message.channel.type === ChannelType.GuildText) {
 				let categor = guild.channels.cache.get("1006828861964689438")
 				if (message.channel.parentId !== categor.id) return;
 
