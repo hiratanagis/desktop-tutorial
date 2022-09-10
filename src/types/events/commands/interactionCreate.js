@@ -46,7 +46,9 @@ module.exports = {
 			}
 		}
 		
-	} else if(interaction.isChatInputCommand() || interaction.isUserContextMenuCommand()) {
+	}
+	
+	if(interaction.isChatInputCommand() || interaction.isUserContextMenuCommand()) {
       const { commands } = client;
       const { commandName } = interaction;
       const command = commands.get(commandName);
