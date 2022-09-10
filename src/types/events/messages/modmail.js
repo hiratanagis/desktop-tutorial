@@ -97,7 +97,7 @@ module.exports = {
 				.setAuthor({name: "Staff Team"})
 				.setTitle(`${message.content}`)
 				.setTimestamp()
-				.setColor("#FFFFFF)
+				.setColor("#FFFFFF")
 				usertosend.send({ embeds: [staffSendEmbedA] })
 			}
 		}
