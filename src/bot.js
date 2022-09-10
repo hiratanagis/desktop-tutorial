@@ -18,26 +18,6 @@ const client = new Client({
 	partials: [User, Channel, Message, GuildMember, ThreadMember, GuildScheduledEvent, Reaction]
 });
 
-const charModMail = require('char-mod-mail');
-
-client.on("ready", () => {
-charModMail.ModMail(client, {
-    guildID: "976469136186171424", //put your guild id here
-    categoryID: "1006828861964689438", //put your category id here
-    staffRole: "1005060869723537491", //put your staff role id here
-    embedColor: "#ffffff", //change the hax color code if you want
-    anonymousReply: true, //make it false if only the staff can reply the user or make it true so anyone can reply.
-    closedTitle: "Mod Mail-mu udah di tutup",
-    closedMessage: "Staff telah menghapus Mod Mail-mu!",
-    staffOpenedTitle: "Seseorang membuka Mod Mail",
-    staffOpenedMessage: "Seseorang telah membuka Mod Mail dan menunggu untuk dibalas!",
-    userOpenedTitle: "Mod Mail telah dibuat!",
-    userOpenedMessage: "Kamu telah membuat Mod Mail Ticket!",
-    wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
-    rightEmoji: "✅" // if you want you can change but don't change it recommaned.
-})
-})
-
 /* Client Config */
 client.config = require('../config.json')
 client.color = parseInt(client.config.color.replace("#", "0x"))

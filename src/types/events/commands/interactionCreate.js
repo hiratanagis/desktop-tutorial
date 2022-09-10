@@ -1,4 +1,4 @@
-const { Client, CommandInteraction, InteractionType } = require("discord.js");
+const { Client, CommandInteraction, InteractionType, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require("discord.js");
 
 module.exports = {
   name: "interactionCreate",
@@ -7,8 +7,46 @@ module.exports = {
    * @param {CommandInteraction} interaction
    */
   async execute(interaction, client) {
+	  
+		let confirmButton = new ButtonBuilder()
+		.setStyle(ButtonStyle.Success)
+		.setLabel('Confirm')
+		.setCustomId('confirm_mail')
+		.setEmoji('✔️')
+
+		  let cancleButton = new ButtonBuilder()
+		.setStyle(ButtonStyle.Secondary)
+		.setLabel('Cancel')
+		.setCustomId('cancle_mail')
+		.setEmoji('❌')
+
+		let optionsRow = new ActionRowBuilder()
+		.addComponents([confirmButton])
+		.addComponents([cancleButton])
     
-    if(interaction.isChatInputCommand() || interaction.isUserContextMenuCommand()) {
+    if (interaction.customId === "close_mail") {
+		interaction.update({ components: [optionsRow]})
+	} else {
+		if (interaction.customId === "cancle_mail") {
+
+		let delButton2 = new ButtonBuilder()
+		.setStyle(ButtonStyle.Danger)
+		.setLabel('Delete')
+		.setCustomId('close_mail')
+		.setEmoji('❌')
+
+		let deleteRow2 = new ActionRowBuilder()
+		.addComponents([delButton2])
+
+		interaction.update({ components: [deleteRow2]})
+
+		} else {
+			if (interaction.customId === "confirm_mail") {
+				interaction.message.channel.delete();
+			}
+		}
+		
+	} else if(interaction.isChatInputCommand() || interaction.isUserContextMenuCommand()) {
       const { commands } = client;
       const { commandName } = interaction;
       const command = commands.get(commandName);
