@@ -95,7 +95,7 @@ module.exports = {
       } catch (error) {
         console.error(error)
       }
-	} else return;
+	}
 
     } else if(interaction.type == InteractionType.ModalSubmit) {
 		
@@ -146,7 +146,7 @@ module.exports = {
       } catch (error) {
         console.error(error)
       }
-	} else return;
+	}
 	
     } else if(interaction.isContextMenuCommand()) {
       const { commands } = client;
