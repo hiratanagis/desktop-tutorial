@@ -1,4 +1,4 @@
-const { Client, CommandInteraction, InteractionType, ActionRowBuilder, ButtonBuilder, ButtonStyle, ModalBuilder, TextInputBuilder, TextInputStyle, EmbedBuilder } = require("discord.js");
+const { Client, CommandInteraction, InteractionType, ActionRowBuilder, ButtonBuilder, ButtonStyle, ModalBuilder, TextInputBuilder, TextInputStyle, EmbedBuilder, bold, italic, codeBlock } = require("discord.js");
 
 module.exports = {
   name: "interactionCreate",
