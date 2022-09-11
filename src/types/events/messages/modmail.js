@@ -1,4 +1,16 @@
-const { Message, EmbedBuilder, MessageType, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
+const { 
+  Message, 
+  EmbedBuilder,
+  MessageType,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  ChannelType,
+  bold,
+  italic,
+  codeBlock,
+  InteractionType
+  } = require('discord.js')
 
 module.exports = {
     name: "messageCreate",
@@ -7,99 +19,152 @@ module.exports = {
      * @param {Message} message
      */
     async execute(message, client) {
-		let guild = client.guilds.cache.get("976469136186171424");
-		if (!guild) console.log("No Guild!");
-		
-		if (message.author.bot) return;
-		if (message.channel.type === "DM") {
-			let mailName = `${message.author.id}`
+  if (message.author.bot) return;
 
-			let usersChannel = await guild.channels.cache.find(ch => ch.name === mailName.toLowerCase());
-			if (!usersChannel) {
+  const guild = client.guilds.cache.get("976469136186171424");
 
-				const createdEmbed = new EmbedBuilder()
-				.setAuthor({name: `${message.author.tag}`,iconURL: message.author.displayAvatarURL({ dynamic: true })})
-				.setTitle("No Mail Opened")
-				.setDescription(message.content)
-				.setColor("#FFFFFF")
+  if (!guild) {
+    console.error('[CRASH] Guild is not valid.'.red);
+    return process.exit();
+  }
 
-				let categ = guild.channels.cache.get("1006828861964689438")
-				if (!categ) console.log("No Category!")
-				
-				let permissions = {
-					id: "1005060869723537491",
-					allow: ['VIEW_CHANNEL', 'SEND_MESSAGES', 'READ_MESSAGE_HISTORY']
-				}
+  const category = guild.channels.cache.get("1006828861964689438");
 
-				guild.channels.create(`${message.author.id}`, {
-					type: "text",
-					parent: categ,
-					permissionOverwrites: [
-						{
-							id: guild.roles.everyone,
-							deny: ['VIEW_CHANNEL', 'SEND_MESSAGES', 'READ_MESSAGE_HISTORY'] //Deny permissions
-						},
-						permissions
-					],
-				}).then(async (ch) => {
-					let role = ch.guild.roles.cache.find((r) => r.id == "1005060869723537491")
-					if (!role) console.log("No role!")
+  const channel = guild.channels.cache.find(
+    x => x.name === message.author.id && x.parentId === category.id
+  );
+  
+  // If the message in a DM channel:
+	if (message.channel.type == ChannelType.DM) {
 
-					const openedUserEmbed = new EmbedBuilder()
-					.setAuthor({name: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true })})
-					.setTitle("Mod Mail telah dibuat!")
-					.setDescription("Kamu telah membuat Mod Mail Ticket!")
-					.setTimestamp()
-					.setColor("#FFFFFF")
-					message.author.send({ embeds: [openedUserEmbed] })
+    // The Modmail system:
+    if (!channel) {
+      let embedDM = new EmbedBuilder()
+        .setTitle("Mail Dibuat:")
+        .setDescription(`Mod Mailmu berhasil dibuat dengan detail sebagai berikut:`)
+        .addFields(
+          { name: "Message", value: `${message.content || italic("(Tidak ada pesan yang dikirim, mungkin media atau pesan embed yang dikirim, atau mungkin error)")}` }
+        )
+        .setColor('Green')
+        .setFooter(
+          {
+            text: "Kamu dapat mengklik **Close** button untuk menutup mail ini."
+          }
+        )
 
-					let usersCreatedChannel = await guild.channels.cache.find(ch => ch.name === mailName.toLowerCase());
+      if (message.attachments.size) {
+        embedDM.setImage(message.attachments.map(img => img)[0].proxyURL);
+        embedDM.addFields(
+          { name: "Media(s)", value: italic("(Media yang dikirim)") }
+        )
+      };
+      
+      message.reply(
+        {
+          embeds: [
+            embedDM
+          ],
+          components: [
+            new ActionRowBuilder()
+              .addComponents(
+                new ButtonBuilder()
+                  .setCustomId('close_button_created_mail_dm')
+                  .setLabel('Close')
+                  .setStyle(ButtonStyle.Secondary),
+              )
+          ]
+        }
+      );
 
-					let delButton = new ButtonBuilder()
-					.setStyle(ButtonStyle.Danger)
-					.setLabel('Delete')
-					.setCustomId('close_mail')
-					.setEmoji('❌')
+      const channel = await guild.channels.create({
+        name: message.author.id,
+        type: ChannelType.GuildText,
+        parent: category,
+        topic: `Mod Mail telah dibuat oleh ${message.author.tag}.`
+      }).catch(console.log);
 
-					let deleteRow = new ActionRowBuilder()
-					.addComponents([delButton])
+      let embed = new EmbedBuilder()
+        .setTitle("Mod Mail Dibuat:")
+        .addFields(
+          { name: "User", value: `${message.author.tag} (\`${message.author.id}\`)` },
+          { name: "Message", value: `${message.content.substr(0, 4096) || italic("(Tidak ada pesan yang dikirim, mungkin media atau pesan embed yang dikirim, atau mungkin error)")}` },
+          { name: "Created on", value: `${new Date().toLocaleString()}` },
+        )
+        .setColor('Blue')
 
-					const openedStaffEmbed = new EmbedBuilder()
-					.setAuthor({name: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true })})
-					.setTitle("Seseorang membuka Mod Mail")
-					.setDescription(`**User: ${message.author.tag} (${message.author.id})**\n\n ${message.content}`)
-					.setTimestamp()
-					.setColor("#FFFFFF")
+      if (message.attachments.size) {
+        embed.setImage(message.attachments.map(img => img)[0].proxyURL);
+        embed.addFields(
+          { name: "Media(s)", value: italic("(Media ada dibawah)") }
+        )
+      };
 
-					usersCreatedChannel.send({ embeds: [openedStaffEmbed], components: [deleteRow] })
-				})
-			} else {
-				let usersHadChannel = await guild.channels.cache.find(ch => ch.name === mailName.toLowerCase());
+      return channel.send(
+        {
+          content: "<@1005060869723537491>, <@976472985051484241>",
+          embeds: [
+            embed
+          ],
+          components: [
+            new ActionRowBuilder()
+              .addComponents(
+                new ButtonBuilder()
+                  .setCustomId('close_button_created_mail_channel')
+                  .setLabel('Close')
+                  .setStyle(ButtonStyle.Danger),
+              )
+          ]
+        }
+      ).then(async (sent) => {
+        sent.pin()
+          .catch(() => { });
+      });
 
-				const userHadEmbed = new EmbedBuilder()
-				.setAuthor({name: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true })})
-				.setTitle(`${message.content}`)
-				.setTimestamp()
-				.setColor("#FFFFFF")
-				usersHadChannel.send({ embeds: [userHadEmbed] })
-			}
+    } else {
+      let embed = new EmbedBuilder()
+        .setAuthor({ name: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
+        .setDescription(message.content.substr(0, 4096) || italic("(Tidak ada pesan yang dikirim, mungkin media atau pesan embed yang dikirim, atau mungkin error)"))
+        .setColor('Green');
 
-		// Sent In DM's //
-		} else {
-			if (message.channel.type === "GUILD_TEXT") {
-				let categor = guild.channels.cache.get("1006828861964689438")
-				if (message.channel.parentId !== categor.id) return;
+      if (message.attachments.size) embed.setImage(message.attachments.map(img => img)[0].proxyURL);
 
-				const usertosend = message.guild.members.cache.find((user) => user.id == message.channel.name)
-				if (!usertosend) return;
+      message.react("📨")
+        .catch(() => { });
 
-				const staffSendEmbedA = new EmbedBuilder()
-				.setAuthor({name: "Staff Team"})
-				.setTitle(`${message.content}`)
-				.setTimestamp()
-				.setColor("#FFFFFF")
-				usertosend.send({ embeds: [staffSendEmbedA] })
-			}
-		}
+      return channel.send(
+        {
+          embeds: [
+            embed
+          ]
+        }
+      );
+    }
+
+    // If the message is in the modmail category:
+  } else if (message.channel.type === ChannelType.GuildText) {
+    if (!category) return;
+
+    if (message.channel.parentId === category.id) {
+      const requestedUserMail = guild.members.cache.get(message.channel.name);
+
+      let embed = new EmbedBuilder()
+        .setAuthor({ name: `${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
+        .setDescription(message.content.substr(0, 4096) || italic("(Tidak ada pesan yang dikirim, mungkin media atau pesan embed yang dikirim, atau mungkin error)"))
+        .setColor('Red');
+
+      if (message.attachments.size) embed.setImage(message.attachments.map(img => img)[0].proxyURL);
+
+      message.react("📨")
+        .catch(() => { });
+
+      return requestedUserMail.send(
+        {
+          embeds: [
+            embed
+          ]
+        }
+      ).catch(() => { });
+    } else return;
+	} 
 	}
 }
